@@ -1,0 +1,3 @@
+include ':kothakhaliwear'
+include ':app'
+rootProject.name = "KothaKhali"

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KothaKhali</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="more"><u>More</u></string>
+    <string name="title_activity_contact_us">Map</string>
+    <string name="weartitle">KothaKhali</string>
+
+</resources>

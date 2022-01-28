@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ui.UpdateDetailsActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/slogo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update your Details"
+        android:textColor="@color/brandcolor"
+        android:fontFamily="@font/blinkerbold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"/>
+
+    //Name
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/white"
+        app:boxStrokeColor="@color/brandcolor"
+        android:layout_marginBottom="15dp"
+        android:textColorHint="@color/brandcolor"
+        app:hintTextColor="@color/brandcolor">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etuname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:hint="Name"
+            android:textColorHint="@color/brandcolor"
+            android:textColor="@color/brandcolor"
+            android:textSize="18sp"
+            android:fontFamily="@font/blinkersemibold"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    //Name
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/white"
+        app:boxStrokeColor="@color/brandcolor"
+        android:layout_marginBottom="15dp"
+        android:textColorHint="@color/brandcolor"
+        app:hintTextColor="@color/brandcolor">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etumobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:hint="Mobile"
+            android:textColorHint="@color/brandcolor"
+            android:textColor="@color/brandcolor"
+            android:textSize="18sp"
+            android:fontFamily="@font/blinkersemibold"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    //Button
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnupdatedetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/buttoncornerbrand"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/blinkerbold"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>
